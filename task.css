@@ -1,0 +1,164 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+   
+}
+
+.navbar{
+    background-image: linear-gradient(to right top, #3dbeff, #3dbeff, #3dbeff, #3dbeff, #3dbeff);
+    
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+    padding: 0 10px;
+    float: right;
+    text-align: left;
+    border: 1px solid transparent;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid white;
+}
+
+#home{
+    background-image: linear-gradient(to right top, #3dbeff, #3dbeff, #3dbeff, #3dbeff, #3dbeff);
+
+}
+
+.heading{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 80px;
+}
+
+.image{
+    width: 300px;
+    
+}
+
+.image2{
+    width: 661px;
+}
+
+.heading1{
+    margin-top: 150px;
+    font-size: 60px;
+    margin-left: 20px;
+    color: #202B3D;
+}
+
+.sub-head{
+    margin-left: 20px;
+    color: #838396;
+}
+
+.angular{
+    margin-left: 20px;
+    color: #1C2937;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.image3{
+    width: 685px;
+}
+
+.im1{
+    width: 200px;
+}
+
+.head{
+    background-color: rgb(131, 196, 180);
+    text-align: center;
+    margin: 0px -22px 0px 0px;
+    color: #24554A;
+}
+
+.head1{
+    background-color: #67CCFF;
+    text-align: center;
+    margin: 0px ;
+    color:#1B536C
+}
+
+.head3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #A8ABAD;
+}
+
+#contacts{
+    background-color: #90D4C5;
+    height: 300px;
+}
+
+.sunny{
+   
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2D7465;
+}
+
+.sunny1{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #2D7465;
+    padding: 5px;
+}
+.sunny2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #2D7465;
+    margin: 30px 0px 0px 0px;
+}
+
+.sunny2 i{
+    padding: 0 10px;
+    color: #2D7465;
+    font-size: 20px;
+    margin-top: 50px;
+}
+@media(max-width:1030px){
+    .heading{
+        color: white;
+        margin-top: 10px;
+        font-size: 50px;
+        
+    }
+    .image2{
+        width: 350px;
+    }
+
+
+    .heading1{
+        margin-top: 10px;
+        font-size: 30px;
+        
+    }
+
+    .image3{
+        width: 350px;
+    }
+
+    .head{
+        background-color: rgb(131, 196, 180);
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+    }
+}
